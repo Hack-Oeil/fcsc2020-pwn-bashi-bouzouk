@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  webssh.cyrhades.com:
+    build: webssh
+    ports:
+      - "80:8888"
+  bashi-bouzouk.cyrhades.com:
+    hostname: bashi-bouzouk.cyrhades.com
+    image: anssi/fcsc2020-pwn-bashi-bouzouk:latest
+    ports:
+      - "22:22"
