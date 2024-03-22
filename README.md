@@ -1,35 +1,24 @@
-# FCSC 2020 Xoring Networks (Baby)
+# FCSC 2020 BASHi Bouzouk
 
-Nous vous proposons l’étude des réseaux de XOR (Xoring Networks) et le problème XNP associé. Plus d’informations dans le README.md.
+Saurez-vous retrouver le flag que le Capitaine Haddock a caché ? Attention, il a pris quelques précautions pour personnaliser et durcir sa machine.
 
-Note : Cette version propose des problèmes de petites dimensions.
+Service : ssh tintin@localhost (mot de passe : tintin).
 
-Une version plus complexe de cette épreuve est disponible ici : Xoring Networks.
-
-[DETAILS.md](DETAILS.md)
-
-![instance.png](instance.png)
-
-![instance_solution.png](instance_solution.png)
+Note : Cette épreuve avait été proposée lors de la finale du FCSC 2020.
 
 
-Auteur : [Cryptanalyse](https://twitter.com/Cryptanalyse)
+Auteur : nop
 
-Origine : [Xoring Networks (Baby)](https://hackropole.fr/fr/challenges/misc/fcsc2020-misc-xoring-networks-baby/)
+Origine : [BASHi Bouzouk](https://hackropole.fr/fr/challenges/pwn/fcsc2020-pwn-bashi-bouzouk/)
 
 
-## Connectez vous en WEBSSH
+#### en webssh 
 > http://localhost
 
 
-#### tentez 
-> nc xoring-networks-baby.cyrhades.com:4000
+#### en ssh 
+> ssh tintin@localhost
 
-
------------
-
-## Ou directement avec netcat
-> nc localhost:4000
 
 -----------
 
@@ -37,12 +26,12 @@ Origine : [Xoring Networks (Baby)](https://hackropole.fr/fr/challenges/misc/fcsc
 Vous n'utilisez pas l'application **les CTFs de Cyrhades** ? C'est dommage !
 Mais voici comment installer ce CTF manuellement :
 
-> git clone https://github.com/Hack-Oeil/fcsc2020-misc-xoring-networks-baby.git
+> git clone https://github.com/Hack-Oeil/fcsc2020-pwn-bashi-bouzouk.git
 
-> cd fcsc2020-misc-xoring-networks-baby
+> cd fcsc2020-pwn-bashi-bouzouk
 
 
 -----------
 
 ## Sur le site officiel hackropole.fr
-> https://hackropole.fr/fr/challenges/misc/fcsc2020-misc-xoring-networks-baby/
+> https://hackropole.fr/fr/challenges/pwn/fcsc2020-pwn-bashi-bouzouk/
